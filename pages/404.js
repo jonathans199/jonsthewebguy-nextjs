@@ -1,12 +1,9 @@
-import React, { Component } from "react";
-import Router from "next/router";
+import { useEffect } from 'react'
+import Router from 'next/router'
 
-export default class Error404 extends Component {
-  componentDidMount = () => {
-    Router.push("/");
-  };
-
-  render() {
-    return <div />;
-  }
+export default function Error404() {
+  useEffect(() => {
+    Router.push('/')
+  }, [])
+  return <div />
 }

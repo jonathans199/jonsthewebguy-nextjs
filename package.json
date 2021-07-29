@@ -1,9 +1,9 @@
 {
-  "name": "notus-nextjs",
-  "homepage": "https://demos.creative-tim.com/notus-nextjs",
+  "name": "Jons the web guy",
+  "homepage": "https://jonsthewebguy.com",
   "version": "1.1.0",
-  "description": "Notus NextJS - A free Tailwind CSS, NextJS and React Ui Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/notus-nextjs",
+  "description": "JonS The Web Guy - Jonathan's portfolio",
+  "repository": "https://github.com/jonathans199/jonsthewebguy-nextjs.git",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
