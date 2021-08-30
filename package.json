@@ -2,7 +2,8 @@
   "name": "jons-the-web-guy",
   "homepage": "https://jonsthewebguy.com",
   "version": "1.1.0",
-  "description": "JonS The Web Guy - Jonathan's portfolio",
+  "author": "Jonathan Sanchez",
+  "description": "JS The Web Guy - Jonathan's portfolio",
   "repository": "https://github.com/jonathans199/jonsthewebguy-nextjs.git",
   "license": "MIT",
   "dependencies": {
