@@ -18,8 +18,8 @@ export default function Index() {
                 <br /> aka - Jon.S the Web Guy,
               </h2>
               <p className='mt-4 text-lg leading-relaxed text-blueGray-500'>
-                A Full Stack Software Engineer, with serious experience in web and mobile development. I am a JavaScript enthusiast working mostly
-                with the MERN stack (Mongo, Express, React, Node) + React Native.
+                A Girls Dad 👯‍♀️, a husband, a trainer/speaker and a Full Stack Software Engineer, with serious experience in web and mobile
+                development. I am a JavaScript enthusiast working mostly with the MERN stack (Mongo, Express, React, Node) + React Native + Expo 😎
               </p>
               <br />
               <i className='pt-3 text-sm leading-relaxed text-blueGray-500'>
@@ -29,16 +29,22 @@ export default function Index() {
 
               <div className='mt-12'>
                 <a
-                  href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
+                  href='https://www.linkedin.com/in/jonathansanchez199/'
                   target='_blank'
-                  className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
-                  Get started
+                  className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
+                  Linkedin
                 </a>
                 <a
                   href='https://github.com/jonathans199'
                   className='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
                   target='_blank'>
                   Github
+                </a>
+                <a
+                  href='https://medium.com/@jonathans199'
+                  className='github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'
+                  target='_blank'>
+                  Medium
                 </a>
               </div>
             </div>
@@ -111,6 +117,18 @@ export default function Index() {
                       <p className='mb-4 text-blueGray-500'>Developed countless APIs in Node.js with Mongo &amp; MySQL databases</p>
                     </div>
                   </div>
+                  <div className='relative flex flex-col min-w-0'>
+                    <div className='px-4 py-5 flex-auto'>
+                      <div className='text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
+                        <i className='fas fa-bullhorn'></i>
+                      </div>
+                      <h6 className='text-xl mb-1 font-semibold'>Speaker & Trainer</h6>
+                      <p className='mb-4 text-blueGray-500'>
+                        Love giving talks about tech, whether is about React Native, Expo or Next.js, my talks are very informative and engaging for
+                        any audience
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div className='w-full md:w-6/12 px-4'>
                   <div className='relative flex flex-col min-w-0 mt-4'>
@@ -131,6 +149,21 @@ export default function Index() {
                       </div>
                       <h6 className='text-xl mb-1 font-semibold'>Cloud Services</h6>
                       <p className='mb-4 text-blueGray-500'>AWS is my confort zone, although really enjoying Firebase within GCP.</p>
+                    </div>
+                  </div>
+                  <div className='relative flex flex-col min-w-0'>
+                    <div className='px-4 py-5 flex-auto'>
+                      <div className='text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white'>
+                        <i className='fas fa-code'></i>
+                      </div>
+                      <h6 className='text-xl mb-1 font-semibold'>Tutorials & Articles</h6>
+                      <p className='mb-4 text-blueGray-500'>Checkout my tutorials and medium articles about different topics and technologies</p>
+                      <a
+                        href='https://medium.com/@jonathans199'
+                        target='_blank'
+                        className='font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150'>
+                        https://medium.com/@jonathans199
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -224,7 +257,7 @@ export default function Index() {
             <div className='w-full md:w-6/12 px-4 mr-auto ml-auto mt-32'>
               <div className='justify-center flex flex-wrap relative'>
                 <div className='my-4 w-full lg:w-6/12 px-4'>
-                  <a href='https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index' target='_blank'>
+                  <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'>
                     <div className='bg-yellow-500 shadow-lg rounded-lg text-center p-8'>
                       <img
                         alt='...'
@@ -234,7 +267,7 @@ export default function Index() {
                       <p className='text-lg text-white mt-4 font-semibold'>JavaScript</p>
                     </div>
                   </a>
-                  <a href='https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index' target='_blank'>
+                  <a href='https://reactjs.org/' target='_blank'>
                     <div className='bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8'>
                       <img
                         alt='...'
@@ -245,7 +278,7 @@ export default function Index() {
                     </div>
                   </a>
 
-                  <a href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index' target='_blank'>
+                  <a href='https://nextjs.org/' target='_blank'>
                     <div className='bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8'>
                       <img
                         alt='...'
@@ -257,19 +290,19 @@ export default function Index() {
                   </a>
                 </div>
                 <div className='my-4 w-full lg:w-6/12 px-4 lg:mt-16'>
-                  <a href='#' target='_blank'>
+                  <a href='https://nodejs.org/en/' target='_blank'>
                     <div className='bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8'>
                       <img alt='...' className='shadow-md rounded-full max-w-full w-16 mx-auto p-4 bg-white' src='/img/nodejs.png' />
                       <p className='text-lg text-white mt-4 font-semibold'>Node.JS</p>
                     </div>
                   </a>
-                  <a href='https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index' target='_blank'>
+                  <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'>
                     <div className='bg-red-400 shadow-lg rounded-lg text-center p-8 mt-8'>
                       <img alt='...' className='shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white' src='/img/html-css.png' />
                       <p className='text-lg text-white mt-4 font-semibold'>HTML / CSS</p>
                     </div>
                   </a>
-                  <a href='https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index' target='_blank'>
+                  <a href='https://vuejs.org/' target='_blank'>
                     <div className='bg-emerald-400 shadow-lg rounded-lg text-center p-8 mt-8'>
                       <img
                         alt='...'
@@ -479,7 +512,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className='container mx-auto px-4 pb-32 pt-48'>
+        {/* <div className='container mx-auto px-4 pb-32 pt-48'>
           <div className='items-center flex flex-wrap'>
             <div className='w-full md:w-5/12 ml-auto px-12 md:px-4'>
               <div className='md:pr-12'>
@@ -556,7 +589,7 @@ export default function Index() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='justify-center text-center flex flex-wrap mt-24'>
           <div className='w-full md:w-6/12 px-12 md:px-4'>
@@ -575,44 +608,69 @@ export default function Index() {
             <div className='w-full lg:w-12/12 px-4  -mt-24'>
               <div className='flex flex-wrap'>
                 <div className='w-full lg:w-4/12 px-4'>
-                  <h5 className='text-xl font-semibold pb-4 text-center'>Icp Miami Backoffice</h5>
+                  <h5 className='text-xl font-semibold pb-4 text-center'>Icp Miami Public Web</h5>
                   <Link href='/auth/login'>
                     <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
-                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/login.jpg' />
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/icpmiami.jpeg' />
+                    </div>
+                  </Link>
+                </div>
+                <div className='w-full lg:w-4/12 px-4'>
+                  <h5 className='text-xl font-semibold pb-4 text-center'>Icp Miami Back Office</h5>
+                  <Link href='/auth/login'>
+                    <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/icp-mexico.jpeg' />
                     </div>
                   </Link>
                 </div>
 
                 <div className='w-full lg:w-4/12 px-4'>
-                  <h5 className='text-xl font-semibold pb-4 text-center'>Boca Code Website</h5>
+                  <h5 className='text-xl font-semibold pb-4 text-center'>Ways Mobile App</h5>
+                  <Link href='/landing'>
+                    <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/ways.jpeg' />
+                    </div>
+                  </Link>
+                </div>
+                <div className='w-full lg:w-4/12 px-4'>
+                  <h5 className='text-xl font-semibold pb-4 text-white text-center'>All Inclusive Party Rental</h5>
                   <Link href='/profile'>
                     <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
-                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/profile.jpg' />
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/allinclusive.jpeg' />
                     </div>
                   </Link>
                 </div>
 
                 <div className='w-full lg:w-4/12 px-4'>
-                  <h5 className='text-xl font-semibold pb-4 text-center'>Landing Page</h5>
+                  <h5 className='text-xl font-semibold pb-4 text-white text-center'>Trading Waves</h5>
                   <Link href='/landing'>
                     <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
-                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/landing.jpg' />
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/trading-waves.jpeg' />
                     </div>
                   </Link>
                 </div>
                 <div className='w-full lg:w-4/12 px-4'>
-                  <h5 className='text-xl font-semibold pb-4 text-center'>Landing Page</h5>
+                  <h5 className='text-xl font-semibold pb-4 text-white text-center'>Infinity Dance Studio</h5>
                   <Link href='/landing'>
                     <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
-                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/landing.jpg' />
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/ids.jpeg' />
+                    </div>
+                  </Link>
+                </div>
+
+                <div className='w-full lg:w-4/12 px-4'>
+                  <h5 className='text-xl font-semibold text-white pb-4 text-center'>Master Miner Backoffice</h5>
+                  <Link href='/landing'>
+                    <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/master-miner.jpeg' />
                     </div>
                   </Link>
                 </div>
                 <div className='w-full lg:w-4/12 px-4'>
-                  <h5 className='text-xl font-semibold pb-4 text-center'>Landing Page</h5>
+                  <h5 className='text-xl font-semibold text-white pb-4 text-center'>Logos & Designs</h5>
                   <Link href='/landing'>
                     <div className='hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150'>
-                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/landing.jpg' />
+                      <img alt='...' className='align-middle border-none max-w-full h-auto rounded-lg' src='/img/logos.jpeg' />
                     </div>
                   </Link>
                 </div>
@@ -629,23 +687,18 @@ export default function Index() {
               <div className='text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white'>
                 <i className='fas fa-code-branch text-xl'></i>
               </div>
-              <h3 className='text-3xl mb-2 font-semibold leading-normal text-white'>Open Source</h3>
+              <h3 className='text-3xl mb-2 font-semibold leading-normal text-white'>Lets collaborate</h3>
               <p className='text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400'>
-                Since{' '}
-                <a href='https://tailwindcss.com/?ref=creative' className='text-blueGray-300' target='_blank'>
-                  Tailwind CSS
-                </a>{' '}
-                is an open source project we wanted to continue this movement too. You can give this version a try to feel the design and also test
-                the quality of the code!
+                I'm really passionate about Open Source projects. This is where I'm able to give back to an industry that has given so much for me.
               </p>
               <p className='text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400'>
-                Get it free on Github and please help us spread the news with a Star!
+                Have an <b> Open Source</b> project and need some extra hands?
               </p>
               <a
-                href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
+                href='https://github.com/jonathans199'
                 target='_blank'
                 className='github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'>
-                Github Star
+                Let's Connect
               </a>
             </div>
 
@@ -678,24 +731,23 @@ export default function Index() {
                   😍
                 </span>
               </p>
-              <h3 className='font-semibold text-3xl'>Do you love this Starter Kit?</h3>
+              <h3 className='font-semibold text-3xl'>Need a human to help you with your Software? </h3>
               <p className='text-blueGray-500 text-lg leading-relaxed mt-4 mb-4'>
-                Cause if you do, it can be yours now. Hit the buttons below to navigate to get the Free version for your next project. Build a new web
-                app or give an old project a new look!
+                If you do, I'm a Human Being who happen to be a programmer that could help you with your Applications.
               </p>
               <div className='sm:block flex flex-col mt-10'>
                 <a
-                  href='https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index'
+                  href='https://www.linkedin.com/in/jonathansanchez199/'
                   target='_blank'
                   className='get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150'>
-                  Get started
+                  Linkedin
                 </a>
                 <a
-                  href='https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index'
+                  href='https://github.com/jonathans199'
                   target='_blank'
                   className='github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg'>
                   <i className='fab fa-github text-lg mr-1'></i>
-                  <span>Help With a Star</span>
+                  <span>See my repos</span>
                 </a>
               </div>
               <div className='text-center mt-16'></div>
