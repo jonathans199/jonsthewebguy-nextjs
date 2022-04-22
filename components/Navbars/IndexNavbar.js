@@ -25,11 +25,16 @@ export default function Navbar(props) {
             id='example-navbar-warning'>
             <ul className='flex flex-col lg:flex-row list-none lg:ml-auto'>
               <li className='flex items-center'>
-                <button
-                  className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
-                  type='button'>
-                  <i className='fas fa-arrow-alt-circle-down'></i> CV / RESUME
-                </button>
+                <a
+                  href='https://docs.google.com/document/d/1w4o3rkN56QtQxJpHtFDEAOk46Dd0DERJfj5Ax9-7sMs/edit?usp=sharing'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  <button
+                    className='bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150'
+                    type='button'>
+                    <i className='fas fa-arrow-alt-circle-down'></i> CV / RESUME
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
